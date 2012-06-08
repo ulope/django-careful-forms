@@ -21,12 +21,12 @@ def find_version(*parts):
 setup(
     name='django-careful-forms',
     version=find_version('careful_forms', '__init__.py'),
-    description="",
+    description="Security minded forms extension for django",
     long_description=read('README.rst'),
     author='Ulrich Petri',
     author_email='mail@ulo.pe',
     license='MIT',
-    #url='http://django-careful-forms.readthedocs.org/',
+    url='https://github.com/ulope/django-careful-forms',
     packages=[
         'careful_forms',
         'careful_forms.tests',

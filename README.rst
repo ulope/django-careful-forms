@@ -46,9 +46,9 @@ displays the name and email field. However by forgetting to exclude the
 ``is_admin`` field you are allowing users to change state internal to your
 application (and in this hypothetical example gain admin rights).
 
-If we changed this example to use careful-forms instead the missing field would have
-triggerd a warning (or even an exception depending on settings, see below).
-
+If we changed this example to use careful-forms instead the missing field would
+have triggerd a warning (or even an exception depending on settings, see below),
+alerting you to the vulnerability.
 
 
 ----------
