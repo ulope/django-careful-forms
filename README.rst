@@ -15,9 +15,7 @@ been rendered in the template / displayed to the user).
 Example
 -------
 
-Consider the following example:
-
-.. code:: python
+Consider the following example::
 
     # models.py:
 
@@ -106,9 +104,7 @@ Usage
 .. [1] In case you already have a custom form base class you can also add
    ``CarefulFormMixin`` to it.
 
-Examples:
-
-.. code:: python
+Examples::
 
     class MyForm(CarefulForm):
         # ...
