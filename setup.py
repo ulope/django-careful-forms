@@ -31,7 +31,7 @@ setup(
         'careful_forms',
         'careful_forms.tests',
     ],
-    requires=[
+    install_requires=[
         'django-appconf>=0.5',
     ],
     classifiers=[
