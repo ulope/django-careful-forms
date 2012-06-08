@@ -1,4 +1,8 @@
-from django.conf.urls import patterns, url
+try:
+    from django.conf.urls import patterns, url
+except ImportError:
+    # django 1.3 compatibility
+    from django.conf.urls.defaults import patterns, url
 from careful_forms.tests.views import normal_form, careful_incorrect_model_form, careful_correct_model_form
 
 urlpatterns = patterns('',
